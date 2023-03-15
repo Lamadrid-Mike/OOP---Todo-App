@@ -19,14 +19,14 @@ class App {
     this.inputValue = todoInput.value;
     if (this.inputValue === "") return alert("Invalid");
     const html = `
-    <div class="form-check form-switch check-input">
+    <div class="form-check-reverse form-switch check-input">
       <input
         class="form-check-input"
         type="checkbox"
         role="switch"
-        id="flexSwitchCheckDefault"
+        id="flexSwitchCheckReverse"
       />
-    <label class="form-check-label" for="flexSwitchCheckDefault"
+    <label class="form-check-label" for="flexSwitchCheckReverse"
       ><h3>${this.inputValue}</h3></label
     >
   </div>
