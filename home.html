@@ -20,24 +20,25 @@
   </head>
   <body>
     <div class="container">
+      <h1>Todos!</h1>
       <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control todoInput"
+          placeholder="Add your todos here!"
+          aria-label="Example text with button addon"
+          aria-describedby="button-addon1"
+        />
         <button
-          class="btn btn-outline-secondary todoBtn"
+          class="btn btn-warning todoBtn"
           type="button"
           id="button-addon1"
         >
           Add
         </button>
-        <input
-          type="text"
-          class="form-control todoInput"
-          placeholder="Add you todos here!"
-          aria-label="Example text with button addon"
-          aria-describedby="button-addon1"
-        />
       </div>
       <div class="todoTable"></div>
-      <button type="button" class="btn btn-outline-danger removeBtn">
+      <button type="button" class="btn btn-outline-warning removeBtn">
         Remove
       </button>
     </div>
