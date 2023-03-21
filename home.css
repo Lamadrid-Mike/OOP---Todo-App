@@ -1,10 +1,11 @@
 body {
   color: whitesmoke;
   background-color: #28282b;
+  margin: 2em;
 }
 
-.container {
-  margin-top: 5em;
+.container-md {
+  margin-top: 6em;
 }
 
 .removeBtn {
@@ -16,4 +17,17 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-animation {
+  animation: fade-in forwards 0.5s ease-in;
 }

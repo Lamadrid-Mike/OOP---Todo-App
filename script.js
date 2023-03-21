@@ -21,12 +21,12 @@ class App {
     const html = `
     <div class="form-check-reverse form-switch check-input">
       <input
-        class="form-check-input"
+        class="form-check-input fade-in-animation"
         type="checkbox"
         role="switch"
         id="flexSwitchCheckReverse"
       />
-    <label class="form-check-label" for="flexSwitchCheckReverse"
+    <label class="form-check-label fade-in-animation" for="flexSwitchCheckReverse"
       ><h3>${this.inputValue}</h3></label
     >
   </div>
